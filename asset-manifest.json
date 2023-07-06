@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/EliseTour-Turismo/static/css/main.6b259e2f.css",
+    "main.js": "/EliseTour-Turismo/static/js/main.c427ffe9.js",
+    "static/media/rota.png": "/EliseTour-Turismo/static/media/rota.f7b4e0b8e9e3b8597a43.png",
+    "static/media/instagram.png": "/EliseTour-Turismo/static/media/instagram.02670244036d2d82e1c3.png",
+    "index.html": "/EliseTour-Turismo/index.html",
+    "main.6b259e2f.css.map": "/EliseTour-Turismo/static/css/main.6b259e2f.css.map",
+    "main.c427ffe9.js.map": "/EliseTour-Turismo/static/js/main.c427ffe9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b259e2f.css",
+    "static/js/main.c427ffe9.js"
+  ]
+}
