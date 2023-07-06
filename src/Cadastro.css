@@ -1,0 +1,185 @@
+#fundo-cadastro{
+    width: 100%;
+    height: 700px;
+    background-color: #67c4e9;
+}
+
+.modelo-caixa-dois{
+  width: 55%;
+  height: 70%;
+  border-radius: 25px;
+  position: absolute;
+  top: 20%;
+  left: 23%;
+  padding-top: 2.5%;
+  background-color: aliceblue;
+  box-shadow: 2px 2px 8px #888;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2.5%;
+}
+
+#legenda-da-caixa-cadastro{
+  width: 30%;
+  height: 25%;
+  display: flex;
+  /* border: 1px solid black; */
+  color: rgb(214, 59, 85);
+  font-size: 400%; 
+  text-align: center;
+  justify-content:center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.bloco{
+  width: 40px;
+  height: 60px;
+  border: 1px solid black;
+}
+
+#cadastro-nome{
+  width: 88%;
+  height: 10%;
+  border: 2px solid rgb(214, 59, 85);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding-left: 2%;
+  color: #888;
+  background-color: aliceblue;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 90%;
+  margin-top: 1%;
+}
+
+#cadastro-nome:focus{
+  background-color: white;
+  border: 3px solid rgb(214, 59, 85);
+  font-weight: bold;
+}
+
+#cadastro-email{
+  width: 88%;
+  height: 10%;
+  border: 2px solid rgb(214, 59, 85);
+  border-radius: 10px;
+  margin-top: 2%;
+  display: flex;
+  align-items: center;
+  padding-left: 2%;
+  color: #888;
+  background-color: aliceblue;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 90%;
+}
+
+#cadastro-email:focus{
+  background-color: white;
+  border: 3px solid rgb(214, 59, 85);
+  font-weight: bold;
+}
+
+.cadastro-senha{
+  width: 88%;
+  height: 10%;
+  border: 2px solid rgb(214, 59, 85);
+  border-radius: 10px;
+  margin-top: 2%;
+  display: flex;
+  align-items: center;
+  padding-left: 2%;
+  color: #888;
+  background-color: aliceblue;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 90%;
+}
+
+.cadastro-senha:focus{
+  background-color: white;
+  border: 3px solid rgb(214, 59, 85);
+  font-weight: bold;
+}
+
+.selecionar-lugares{
+  width: 50%;
+  height: 100%;
+  border: 2px solid rgb(214, 59, 85);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding-left: 2%;
+  color: #888;
+  background-color: aliceblue;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 90%;
+}
+
+.selecionar-lugares:focus{
+  background-color: white;
+  border: 3px solid rgb(214, 59, 85);
+  font-weight: bold;
+}
+
+#organizador-selecionar-lugares{
+  width: 90%;
+  height: 10%;
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#espacamento-entre-selecionar-lugares{
+  width: 5%;
+  height: 80%;
+  display: flex;
+  text-align: start;
+}
+
+input{
+  outline: none;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+ 
+i{
+  margin-right: 1%;
+  color: white;
+}
+
+#botao-de-cadastro{
+  width: 50%;
+  height: 10%;
+  margin-top: 3%;
+  border: 2px solid rgb(214, 59, 85);
+  border-radius: 10px;
+  box-shadow: 0px 0px 0px #444;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 2%;
+  color: white;
+  background-color: rgb(214, 59, 85);
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 90%; 
+  transition: 0.5s;
+}
+
+#botao-de-cadastro:active{
+  box-shadow: 0px 0px 0px #444;
+  transition: 0.5s;
+}
+
+#botao-de-cadastro:hover{
+  box-shadow: 2px 2px 8px #444;
+
+}

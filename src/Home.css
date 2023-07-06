@@ -1,0 +1,194 @@
+#pe-direito{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 8%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(214, 59, 85);
+    box-shadow: 0px 2px 2px #555454;
+    font-weight: bold;
+    color: aliceblue;
+  }
+  
+  #titulo-do-pe-direito{
+    width: 10%;
+    height: 40%;
+    text-align: center;
+  }
+  
+  .titulo-um{
+    /* border: 1px solid black; */
+    width: 60%;
+    height: 28%;
+    position: relative;
+    top: 30%;
+    left: 7.5%;
+    background-color: #67c4e9;
+    display: flex;
+    font-size: 180%;
+    align-items: flex-start;
+    color: white;
+    font-style: oblique;
+  }
+  
+  .titulo-dois{
+    width: 60%;
+    height: 15%;
+    position: relative;
+    top: 30%;
+    left: 7.5%;
+    background-color: #67c4e9;
+    display: flex;
+    font-size: 110%;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-style: normal;
+    /* border: 1px solid black; */
+  }
+
+  #titulo-tres{
+    /* border: 1px solid black; */
+    width: 50%;
+    height: 40%;
+    position: absolute;
+    top: 75%;
+  }
+  
+  .divisao-um{
+    width: 100%;
+    height: 700px;
+    background-color: #67c4e9;
+  }
+  
+  .divisao-dois{
+    width: 100%;
+    height: 700px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modelo-caixa{
+    width: 225px;
+    height: 325px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px #888;
+    margin-right: 60px;
+    margin-left: 60px;
+  }
+  
+  .icone{
+    width: 220px;
+    height: 110px;
+  }
+  
+  .conteudo-caixa{
+    width: 220px;
+    height: 200px;
+    /* margin-top: 20px; */
+    align-items: center;
+    word-wrap: break-word;
+  }
+  
+  .tipo-letra{
+    color: rgb(7, 7, 88);
+    text-align: center;
+    font-size: 15px;
+    margin: 25px;
+  }
+  
+  #imagem{
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-image: url('instagram.png');
+    position: relative;
+    top: 40px;
+    left: 85px;
+  }
+  
+  #imagem-dois{
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-image: url('rota.png');
+    position: relative;
+    top: 40px;
+    left: 85px;
+  }
+  
+  #imagem-tres{
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-image: url('hotel.png');
+    position: relative;
+    top: 40px;
+    left: 85px;
+  }
+  
+  .decoracao-link{
+    text-decoration: none;
+    color: rgb(7, 7, 88);
+    font-weight: bold;
+  }
+  
+  .decoracao-link:hover{
+    color: rgb(214, 59, 85);
+  }
+  
+  footer{
+    position:relative;
+    width: 100%;
+    height: 180px;
+    background-color: rgb(214, 59, 85);
+    font-weight: bold;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .organizador-footer{
+    width: 300px;
+    height: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  a{
+    font-family: Arial;
+    font-weight: bolder;
+    font-size: 16px;
+  }
+  
+  #formatacao-link-cadastro{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 27px;
+    text-decoration:underline;
+  }
+  
+  #formatacao-link-cadastro:hover{
+    -webkit-text-stroke-width: 0.7px;
+    -webkit-text-stroke-color: #155dca;
+    transition: 0.5s linear;
+  }
+
+  #formatacao-link-login{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+    font-weight: bold;
+  }
+
+  #formatacao-link-login:hover{
+    text-decoration: underline;
+  }
