@@ -27,7 +27,6 @@
     width: 30%;
     height: 25%;
     display: flex;
-    /* border: 1px solid black; */
     color: rgb(214, 59, 85);
     font-size: clamp(3em, 3em + 1vw, 5em);
     text-align: center;
