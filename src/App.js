@@ -1,5 +1,6 @@
 import React from 'react';
 import './index.css';
+import './App.css';
 import { Outlet } from 'react-router-dom';
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
         <div className='organizador-footer'><i className="fa fa-whatsapp" aria-hidden="true"><a>(21) 99800-5744</a></i></div>
       </footer>
       <div id='pe-direito'>
-        <div id='titulo-do-pe-direito'>EliseTour Viagens</div>
+        EliseTour Viagens
       </div>
     </div>
     

@@ -1,21 +1,15 @@
 import { Link } from "react-router-dom";
 import './Home.css';
 import './index.css';
-import { Outlet } from 'react-router-dom';
-import { useState, useEffect } from "react";
-import axios from 'axios';
-import {VscEye, VscEyeClosed} from "react-icons/vsc";
 
 function Home(){
     return(
         <div>
             <div className='divisao-um'>
-                <div className='titulo-um'>
+                <div className='titulo'>
                 <h1>Deixe eu te guiar na viagem dos seus sonhos!</h1>
-                </div>
-                <div className='titulo-dois'>
                 <h2><Link id='formatacao-link-cadastro' to={'cadastre-se'}>Cadastre-se</Link> e enviarei a você um otimo roteiro para fazer a viagem dos seus sonhos.</h2>
-                <h3 id="titulo-tres">Já possui cadastro?<Link id="formatacao-link-login" to={'login'}> Faça seu login</Link></h3>
+                <h3>Já possui cadastro?<Link id="formatacao-link-login" to={'login'}> Faça seu login</Link></h3>
                 </div>
             </div>
             <div className='divisao-dois'>

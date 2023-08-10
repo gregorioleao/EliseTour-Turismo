@@ -1,15 +1,19 @@
 #fundo-login{
     width: 100%;
-    height: 617px;
+    height: 40rem;
     background-color: #67c4e9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 .modelo-caixa-tres{
     width: 55%;
-    height: 70%;
+    height: 27rem;
     border-radius: 25px;
     position: absolute;
-    bottom: 10%;
+    bottom: 20%;
     left: 23%;
     background-color: aliceblue;
     box-shadow: 2px 2px 8px #888;
@@ -25,7 +29,7 @@
     display: flex;
     /* border: 1px solid black; */
     color: rgb(214, 59, 85);
-    font-size: 400%; 
+    font-size: clamp(3em, 3em + 1vw, 5em);
     text-align: center;
     justify-content: center;
     margin-top: 2.5%;
